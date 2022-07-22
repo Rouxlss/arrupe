@@ -13,12 +13,6 @@
 </head>
 
 <body>
-    <div class="scroll-button scroll-bottom">
-        <i class="fa-solid fa-arrow-down-long"></i>
-    </div>
-    <div class="scroll-button scroll-top">
-        <i class="fa-solid fa-arrow-up-long"></i>
-    </div>
 
     <!-- <header>
         
@@ -43,16 +37,24 @@
                 <img class="literatura-img" src="/assets/img/literatura-title.png" alt="" srcset="">
             </div>
             <div class="content-periodo">
-                <article class="literatura-periodo">PERIODO 1</article>
-                <article class="literatura-periodo">PERIODO 2</article>
-                <article class="literatura-periodo">PERIODO 3</article>
-                <article class="literatura-periodo">PERIODO 4</article>
+                <a href="./periodo1/" class="literatura-periodo">PERIODO 1</a>
+                <a href="./periodo2/" class="literatura-periodo">PERIODO 2</a>
+                <a href="./periodo3/" class="literatura-periodo">PERIODO 3</a>
+                <a href="./periodo4/" class="literatura-periodo">PERIODO 4</a>
             </div>
             <figure class="dashed"></figure>
         </div>
        
     </section>
-    <script src="./assets/index.js"></script>
+    <div class="back-button">
+        <i class="fa-solid fa-arrow-left-long"></i>
+    </div>
+    <script>
+        let back_button_btn = document.querySelector('.back-button')
+        back_button_btn.addEventListener('click', () => {
+            window.history.length > 1 ? window.history.back() : window.window.history.length > 1 ? window.history.back() : window.location.href = "http://localhost:5500/"
+        });
+    </script>
 </body>
 
 </html>

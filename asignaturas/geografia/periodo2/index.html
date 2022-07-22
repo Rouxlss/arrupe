@@ -38,8 +38,14 @@
             </div>
         </div>
     </section>
-    <script src="./assets/index.js">
-
+    <div class="back-button">
+        <i class="fa-solid fa-arrow-left-long"></i>
+    </div>
+    <script>
+        let back_button_btn = document.querySelector('.back-button')
+        back_button_btn.addEventListener('click', () => {
+            window.history.length > 1 ? window.history.back() : window.location.href = "http://localhost:5500/"
+        });
     </script>
 </body>
 
