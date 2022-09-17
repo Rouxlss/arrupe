@@ -525,13 +525,14 @@ main .bg {
     margin-top: 50px;
     font-size: 20px;
     color: #4e1e22;
+    background: rgba(255, 212, 133, 0.952);
     margin-left: 50px;
+    padding: 50px;
 }
 
 
 .info_list li {
     margin-top: 20px;
-    background: red;
     margin-left: 50px;
 }
 
