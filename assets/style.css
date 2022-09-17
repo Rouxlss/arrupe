@@ -401,8 +401,10 @@ aside.menu {
     margin: auto;
     background: white;
     display: flex;
-    align-items: center;
     padding: 20px;
+    height: 600px;
+    overflow-y: scroll;
+    box-shadow: 10px 10px 121px 0px rgba(0,0,0,0.75);
 }
 
 aside.menu ul {
