@@ -478,7 +478,7 @@ main .bg {
     font-size: 20px;
     margin-top: 50px;
     letter-spacing: 5px;
-    background: rgba(199, 175, 175, 0.349);
+    background: rgba(255, 211, 130, 0.952);
     padding: 20px;
 }
 
@@ -487,6 +487,8 @@ main .bg {
     margin-top: 50px;
     font-size: 22px;
     color: #4e1e22;
+    padding: 50px;
+    background: rgba(255, 212, 133, 0.952);
 }
 
 .main_list li {
@@ -529,6 +531,7 @@ main .bg {
 
 .info_list li {
     margin-top: 20px;
+    background: red;
     margin-left: 50px;
 }
 
@@ -542,7 +545,7 @@ h1 {
     margin: auto;
     margin-top: 50px;
     text-align: center;
-    background: #fcfcfc3a;
+    background: #fcfcfcad;
     padding: 20px;
     font-size: 18px;
 }
