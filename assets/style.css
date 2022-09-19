@@ -559,8 +559,10 @@ h1 {
 
 .square__border .videos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .img-list {
@@ -568,5 +570,11 @@ h1 {
     gap: 20px;
     justify-content: center;
     width: 100%;
+    align-items: center;
 }
 
+.img-list video {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
